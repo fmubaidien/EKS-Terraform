@@ -1,0 +1,9 @@
+variable "cluster_name" {}
+variable "cluster_version" {}
+variable "security_group_ids" {}
+variable "subnet_ids" {}
+variable "region" {}
+variable "eks_worker_instance_type" {}
+variable "node_pool_desired" {}
+variable "node_pool_max" {}
+variable "node_pool_min" {}
